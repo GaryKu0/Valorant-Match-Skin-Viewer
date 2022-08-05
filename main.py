@@ -98,7 +98,7 @@ while search==True:
         run=True
     elif inp in Final:
         w=1
-        if (inp+"-2" in Final):
+        if (inp+"-enemy" in Final):
             w=input("Our team or Enemy Team(ours(1)/enemy(2))")
         if w==1:
             print(Final[inp])  
